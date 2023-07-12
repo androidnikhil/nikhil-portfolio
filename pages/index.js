@@ -4,20 +4,24 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Nikhil's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
+
       <main>
-        <Header title="Hi! Nikhil Pandey" />
+         <div className="container">
+       
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        </div>
       </main>
 
       <Footer />
-    </div>
+      </>
   )
 }
